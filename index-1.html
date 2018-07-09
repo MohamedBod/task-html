@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>weather 5 days</title>
+
+    <!-- ========================links===================== -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+
+
+    <!-- ==================================================== -->
+</head>
+<body>
+    
+
+
+<!-- ======================================= start nav bar =========================== -->
+
+<div class="up-part">
+
+                <ul>
+                    
+                    <li class="today"> <a href="#"> Cегодня </a> </li>
+                    <li class="5-days"> <a href="#"> 5 дней</a> </li>
+                    <li class="weather-history "> <a href="#"> история погоды </a> </li>
+    
+                </ul>
+    
+    
+            </div>
+
+
+
+<nav class="navbar navbar-light bg-light">
+
+    <div class="navbar-brand">
+            <i class="fas fa-cloud"></i>
+            <span>  34° Ижевск ,Россия
+                </span>
+
+    </div>
+
+    <form class="form-inline">
+            <label for="search" class="fas fa-search"></label>
+            <input type="search" id="search" placeholder="поиск" />
+            
+    </form>
+  </nav>
+
+<!-- ============================================================== -->
+
+
+<!-- ===============slider==================================================== -->
+
+
+
+
+
+
+<div class="carousel">
+                <div class="row justify-content-center">
+                  <div class="col-md-11 ">
+              
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          
+
+
+
+                                        <table class="table table-bordered">
+                                                        <thead>
+                                                          <tr>
+                                                            <th scope="col">пт ,18 мая</th>
+                                                            <th scope="col">сб ,19 мая</th>
+                                                            <th scope="col">вс ,20 мая</th>
+                                                            <th scope="col">пн ,21 мая</th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr>
+                                                            <th>
+                                                                <div class="days">
+                                                                <div class="days-1">
+                                                                    <p>ночь</p>
+                                                                    <img src="images/5.png" class="img-fluid" alt="">
+                                                                    <p class="green"> +8 </p>
+                                                                </div>
+                                                                <div class="days-2">
+                                                                        <p>утро</p>
+                                                                        <img src="images/6.png"  class="img-fluid"alt="">
+                                                                        <p class="yellow"> +16 </p>
+                                                                </div>
+                                                                <div class="days-3">
+                                                
+                                                                        <p>день</p>
+                                                                        <img src="images/7.png" class="img-fluid" alt="">
+                                                                        <p class="rose"> +21 </p>
+                                                
+                                                                </div>
+                                                                <div class="days-4">
+                                                                        <p>вечер</p>
+                                                                        <img src="images/5.png" class="img-fluid" alt="">
+                                                                        <p class="yellow"> +17 </p>
+                                                                </div>
+                                                
+                                                            </div>
+                                                
+                                                
+                                                
+                                                            </th>
+                                                
+                                                
+                                                
+                                                
+                                                            <!-- =========== -->
+                                                
+                                                
+                                                           
+                                                
+                                                
+                                                            <!-- ================= -->
+                                                            <td>
+                                                
+                                                                    <div class="days">
+                                                                            <div class="days-1">
+                                                                                <p>ночь</p>
+                                                                                <img src="images/5.png" class="img-fluid" alt="">
+                                                                                <p class="green"> +8 </p>
+                                                                            </div>
+                                                                            <div class="days-2">
+                                                                                    <p>утро</p>
+                                                                                    <img src="images/6.png"  class="img-fluid"alt="">
+                                                                                    <p class="yellow"> +16 </p>
+                                                                            </div>
+                                                                            <div class="days-3">
+                                                            
+                                                                                    <p>день</p>
+                                                                                    <img src="images/7.png" class="img-fluid" alt="">
+                                                                                    <p class="rose"> +21 </p>
+                                                            
+                                                                            </div>
+                                                                            <div class="days-4">
+                                                                                    <p>вечер</p>
+                                                                                    <img src="images/5.png" class="img-fluid" alt="">
+                                                                                    <p class="yellow"> +17 </p>
+                                                                            </div>
+                                                            
+                                                                        </div>
+                                                
+                                                            </td>
+                                                
+                                                            <!-- ===== -->
+                                                
+                                                
+                                                            <td>
+                                                
+                                                                    <div class="days">
+                                                                            <div class="days-1">
+                                                                                <p>ночь</p>
+                                                                                <img src="images/5.png" class="img-fluid" alt="">
+                                                                                <p class="green"> +8 </p>
+                                                                            </div>
+                                                                            <div class="days-2">
+                                                                                    <p>утро</p>
+                                                                                    <img src="images/6.png"  class="img-fluid"alt="">
+                                                                                    <p class="yellow"> +16 </p>
+                                                                            </div>
+                                                                            <div class="days-3">
+                                                            
+                                                                                    <p>день</p>
+                                                                                    <img src="images/7.png" class="img-fluid" alt="">
+                                                                                    <p class="rose"> +21 </p>
+                                                            
+                                                                            </div>
+                                                                            <div class="days-4">
+                                                                                    <p>вечер</p>
+                                                                                    <img src="images/5.png" class="img-fluid" alt="">
+                                                                                    <p class="yellow"> +17 </p>
+                                                                            </div>
+                                                            
+                                                                        </div>
+                                                
+                                                            </td>
+                                                
+                                                            
+                                                            <td>
+                                                
+                                                                <div class="days">
+                                                                        <div class="days-1">
+                                                                            <p>ночь</p>
+                                                                            <img src="images/5.png" class="img-fluid" alt="">
+                                                                            <p class="green"> +8 </p>
+                                                                        </div>
+                                                                        <div class="days-2">
+                                                                                <p>утро</p>
+                                                                                <img src="images/6.png"  class="img-fluid"alt="">
+                                                                                <p class="yellow"> +16 </p>
+                                                                        </div>
+                                                                        <div class="days-3">
+                                                        
+                                                                                <p>день</p>
+                                                                                <img src="images/7.png" class="img-fluid" alt="">
+                                                                                <p class="rose"> +21 </p>
+                                                        
+                                                                        </div>
+                                                                        <div class="days-4">
+                                                                                <p>вечер</p>
+                                                                                <img src="images/5.png" class="img-fluid" alt="">
+                                                                                <p class="yellow"> +17 </p>
+                                                                        </div>
+                                                        
+                                                                    </div>
+                                                
+                                                        </td>
+                                                
+                                                          </tr>
+                                                
+                                                          <!-- ==================================================================================================== -->
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          <tr>
+                                                                <td  class="have-back" colspan="4">максимальная скорость ветра, м/с</td>
+                                                          </tr>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                          <tr>
+                                                          
+                                                            <td>
+                                                                <div class="num">
+                                                                        <p>2</p>
+                                                                        <p>5</p>
+                                                                        <p>4</p>
+                                                                        <p>5</p>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="num">
+                                                                        <p>2</p>
+                                                                        <p>5</p>
+                                                                        <p>4</p>
+                                                                        <p>5</p>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="num">
+                                                                        <p>2</p>
+                                                                        <p>5</p>
+                                                                        <p>4</p>
+                                                                        <p>5</p>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="num">
+                                                                        <p>2</p>
+                                                                        <p>5</p>
+                                                                        <p>4</p>
+                                                                        <p>5</p>
+                                                                </div>
+                                                            </td>
+                                                
+                                                
+                                                          </tr>
+                                                
+                                                
+                                                
+                                                          <tr>
+                                                                <td class="have-back"  colspan="4">осадки,мм</td>
+                                                          </tr>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                          <!-- ======================================================= -->
+                                                
+                                                        <div class="last-row">
+                                                
+                                                
+                                                                <tr class="last-row">
+                                                          
+                                                                        <td>
+                                                                            <div class="days-info">
+                                                                                    <p>0</p>
+                                                                                    <p>0</p>
+                                                                                    <p>4</p>
+                                                                                    <p>5</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="days-info">
+                                                                                <p>0</p>
+                                                                                <p>0</p>
+                                                                                    <p>4</p>
+                                                                                    <p>5</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="days-info">
+                                                                                <p>0</p>
+                                                                                <p>0</p>
+                                                                                    <p>4</p>
+                                                                                    <p>5</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="days-info">
+                                                                                <p>0</p>
+                                                                                <p>0</p>
+                                                                                    <p>4</p>
+                                                                                    <p>5</p>
+                                                                            </div>
+                                                                        </td>
+                                                            
+                                                            
+                                                                      </tr>
+                                                
+                                                        </div>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                        </tbody>
+                                                      </table>
+
+
+
+
+
+                        </div>
+              
+                        <div class="carousel-item">
+                          
+
+                                        <table class="table table-bordered">
+                                                        <thead>
+                                                          <tr>
+                                                            <th scope="col">пт ,18 мая</th>
+                                                            <th scope="col">сб ,19 мая</th>
+                                                            <th scope="col">вс ,20 мая</th>
+                                                            <th scope="col">пн ,21 мая</th>
+                                                          </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                          <tr>
+                                                            <th>
+                                                                <div class="days">
+                                                                <div class="days-1">
+                                                                    <p>ночь</p>
+                                                                    <img src="images/5.png" class="img-fluid" alt="">
+                                                                    <p class="green"> +8 </p>
+                                                                </div>
+                                                                <div class="days-2">
+                                                                        <p>утро</p>
+                                                                        <img src="images/6.png"  class="img-fluid"alt="">
+                                                                        <p class="yellow"> +16 </p>
+                                                                </div>
+                                                                <div class="days-3">
+                                                
+                                                                        <p>день</p>
+                                                                        <img src="images/7.png" class="img-fluid" alt="">
+                                                                        <p class="rose"> +21 </p>
+                                                
+                                                                </div>
+                                                                <div class="days-4">
+                                                                        <p>вечер</p>
+                                                                        <img src="images/5.png" class="img-fluid" alt="">
+                                                                        <p class="yellow"> +17 </p>
+                                                                </div>
+                                                
+                                                            </div>
+                                                
+                                                
+                                                
+                                                            </th>
+                                                
+                                                
+                                                
+                                                
+                                                            <!-- =========== -->
+                                                
+                                                
+                                                           
+                                                
+                                                
+                                                            <!-- ================= -->
+                                                            <td>
+                                                
+                                                                    <div class="days">
+                                                                            <div class="days-1">
+                                                                                <p>ночь</p>
+                                                                                <img src="images/5.png" class="img-fluid" alt="">
+                                                                                <p class="green"> +8 </p>
+                                                                            </div>
+                                                                            <div class="days-2">
+                                                                                    <p>утро</p>
+                                                                                    <img src="images/6.png"  class="img-fluid"alt="">
+                                                                                    <p class="yellow"> +16 </p>
+                                                                            </div>
+                                                                            <div class="days-3">
+                                                            
+                                                                                    <p>день</p>
+                                                                                    <img src="images/7.png" class="img-fluid" alt="">
+                                                                                    <p class="rose"> +21 </p>
+                                                            
+                                                                            </div>
+                                                                            <div class="days-4">
+                                                                                    <p>вечер</p>
+                                                                                    <img src="images/5.png" class="img-fluid" alt="">
+                                                                                    <p class="yellow"> +17 </p>
+                                                                            </div>
+                                                            
+                                                                        </div>
+                                                
+                                                            </td>
+                                                
+                                                            <!-- ===== -->
+                                                
+                                                
+                                                            <td>
+                                                
+                                                                    <div class="days">
+                                                                            <div class="days-1">
+                                                                                <p>ночь</p>
+                                                                                <img src="images/5.png" class="img-fluid" alt="">
+                                                                                <p class="green"> +8 </p>
+                                                                            </div>
+                                                                            <div class="days-2">
+                                                                                    <p>утро</p>
+                                                                                    <img src="images/6.png"  class="img-fluid"alt="">
+                                                                                    <p class="yellow"> +16 </p>
+                                                                            </div>
+                                                                            <div class="days-3">
+                                                            
+                                                                                    <p>день</p>
+                                                                                    <img src="images/7.png" class="img-fluid" alt="">
+                                                                                    <p class="rose"> +21 </p>
+                                                            
+                                                                            </div>
+                                                                            <div class="days-4">
+                                                                                    <p>вечер</p>
+                                                                                    <img src="images/5.png" class="img-fluid" alt="">
+                                                                                    <p class="yellow"> +17 </p>
+                                                                            </div>
+                                                            
+                                                                        </div>
+                                                
+                                                            </td>
+                                                
+                                                            
+                                                            <td>
+                                                
+                                                                <div class="days">
+                                                                        <div class="days-1">
+                                                                            <p>ночь</p>
+                                                                            <img src="images/5.png" class="img-fluid" alt="">
+                                                                            <p class="green"> +8 </p>
+                                                                        </div>
+                                                                        <div class="days-2">
+                                                                                <p>утро</p>
+                                                                                <img src="images/6.png"  class="img-fluid"alt="">
+                                                                                <p class="yellow"> +16 </p>
+                                                                        </div>
+                                                                        <div class="days-3">
+                                                        
+                                                                                <p>день</p>
+                                                                                <img src="images/7.png" class="img-fluid" alt="">
+                                                                                <p class="rose"> +21 </p>
+                                                        
+                                                                        </div>
+                                                                        <div class="days-4">
+                                                                                <p>вечер</p>
+                                                                                <img src="images/5.png" class="img-fluid" alt="">
+                                                                                <p class="yellow"> +17 </p>
+                                                                        </div>
+                                                        
+                                                                    </div>
+                                                
+                                                        </td>
+                                                
+                                                          </tr>
+                                                
+                                                          <!-- ==================================================================================================== -->
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          <tr>
+                                                                <td  class="have-back" colspan="4">максимальная скорость ветра, м/с</td>
+                                                          </tr>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                          <tr>
+                                                          
+                                                            <td>
+                                                                <div class="num">
+                                                                        <p>2</p>
+                                                                        <p>5</p>
+                                                                        <p>4</p>
+                                                                        <p>5</p>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="num">
+                                                                        <p>2</p>
+                                                                        <p>5</p>
+                                                                        <p>4</p>
+                                                                        <p>5</p>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="num">
+                                                                        <p>2</p>
+                                                                        <p>5</p>
+                                                                        <p>4</p>
+                                                                        <p>5</p>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="num">
+                                                                        <p>2</p>
+                                                                        <p>5</p>
+                                                                        <p>4</p>
+                                                                        <p>5</p>
+                                                                </div>
+                                                            </td>
+                                                
+                                                
+                                                          </tr>
+                                                
+                                                
+                                                
+                                                          <tr>
+                                                                <td class="have-back"  colspan="4">осадки,мм</td>
+                                                          </tr>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                          <!-- ======================================================= -->
+                                                
+                                                        <div class="last-row">
+                                                
+                                                
+                                                                <tr class="last-row">
+                                                          
+                                                                        <td>
+                                                                            <div class="days-info">
+                                                                                    <p>0</p>
+                                                                                    <p>0</p>
+                                                                                    <p>4</p>
+                                                                                    <p>5</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="days-info">
+                                                                                <p>0</p>
+                                                                                <p>0</p>
+                                                                                    <p>4</p>
+                                                                                    <p>5</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="days-info">
+                                                                                <p>0</p>
+                                                                                <p>0</p>
+                                                                                    <p>4</p>
+                                                                                    <p>5</p>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="days-info">
+                                                                                <p>0</p>
+                                                                                <p>0</p>
+                                                                                    <p>4</p>
+                                                                                    <p>5</p>
+                                                                            </div>
+                                                                        </td>
+                                                            
+                                                            
+                                                                      </tr>
+                                                
+                                                        </div>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                        </tbody>
+                                                      </table>
+
+
+
+                                                      
+
+                        </div>
+
+
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span> <i class="fas fa-chevron-left"></i> </span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span>  <i class="fas fa-chevron-right"></i> </span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+              
+              
+              
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+              <!-- ==========================end slider ======================================= -->
+
+
+      <!-- ================================================== -->
+      
+      
+                <div class="row justify-content-center">
+                                <div class="col-md-11 ">
+                                                <section id="note">
+        <p class="right">пятница,18 мая,сегодня</p>
+        
+        <span class="center">солнце и луна</span>
+</section>
+        </div>
+        </div>
+
+     
+
+<!-- ========================================================================= -->
+
+     <div class="row justify-content-center">
+             <div class="col-md-11">
+
+                        <section id="more-info">
+                                        <div class="sun float-left">
+                          
+                                                  <div class="media">
+                                                                  <img class="mr-3" src="images/Sun.png" alt="Generic placeholder image">
+                                                                  <div class="media-body">
+                                                                    <h5 class="mt-0 mb-1">долгота дня -16ч 43мин</h5>
+                                  
+                                                                    <p> восход -4:02</p>
+                                  
+                                                                    <p> заход20:45</p>
+                                  
+                                                                  </div>
+                                                  </div>
+                                                  <p class="text-infoo">сегодня день на 2 минуты длинее чем , вчера</p>
+                          
+                                                  
+                                        </div>
+                          
+                          
+                                        <div class="moon float-left">
+                          
+                                                  <div class="media">
+                                                                  <img class="mr-3" src="images/Moon.png" alt="Generic placeholder image">
+                                                                  <div class="media-body">
+                                                                    <h5 class="mt-0 mb-1">долгота дня -16ч 43мин</h5>
+                                  
+                                                                    <p> восход -4:02</p>
+                                  
+                                                                    <p> заход20:45</p>
+                                  
+                                                                  </div>
+                                                  </div>
+                                                  <p class="text-infoo">сегодня день на 2 минуты длинее чем , вчера</p>
+                          
+                                                  
+                                        </div>
+                          
+                          
+                                          
+                                </section>
+
+             </div>
+     </div>
+
+
+
+
+
+<!-- ====================================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ===================footer======================== -->
+
+
+      <footer>
+        <p>
+             2018 © copyright 
+        </p>
+    </footer>
+
+    <!-- ====================== scripts ===================== -->
+
+
+    
+    <script src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <!-- ========================================================== -->
+
+
+</body>
+</html>
