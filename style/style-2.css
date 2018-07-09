@@ -1,0 +1,150 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+ 
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+
+ body {
+     width: 100vw;
+     height: 100vh;
+     overflow-y: scroll;
+     overflow-x: hidden;
+ }
+
+
+
+ /* ================================== */
+
+ .up-part{
+    width: 100vw;
+    height: 4vw;
+    background-color: #d8d8d8;
+}
+
+.up-part ul{
+
+   list-style-type: none;
+   
+}
+
+.up-part li{
+    display: inline-block;
+   
+    margin-left: 2vw;
+    margin-top: 1.35vw;
+
+}
+
+.up-part a {
+    
+   text-decoration: none;
+   font-family: 'Roboto Thin', sans-serif;
+   text-transform: capitalize;
+   font-size: 1.2vw;
+   color: black;
+   background-color: #f7f7f7;
+   border: 1px solid #979797;
+   padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+   -webkit-transition: background-color 2s ease-out;
+   -moz-transition: background-color 2s ease-out;
+   -o-transition: background-color 2s ease-out;
+   transition: background-color 2s ease-out;
+}
+
+.up-part a:hover{
+
+   background-color: #9b9b9b;
+   
+}
+
+
+.down-part{
+
+    width: 100vw;
+    height: 4vw;
+    background-color: #f2f2f2;
+    border-top:0.5px solid #979797;
+    border-bottom:0.5px solid #979797;
+
+ }
+ .down-part
+ .left{
+     width: 40%;
+     float:left;
+     align-content: center;
+ }
+
+ .down-part
+ .left p{
+    font-family: 'Roboto Thin', sans-serif;
+     font-size: 1.2vw;
+     margin-left: 0.7vw;
+     margin-top: 1.25vw
+ }
+
+ .down-part
+ .right{
+     width: 40%;
+     float: left;
+     margin-left: 10%;
+   
+    
+ }
+
+ .down-part
+ .right
+ .search{
+    display: inline-block;
+    width: 80%;
+    background-color: #e4e4e4;
+    border: 1px solid #bdbdbd ;
+    border-radius: 5px;
+    padding: 0.5vw;
+    margin-top: 0.7vw;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+    
+ }
+
+ .down-part
+ .right
+ .search:hover{
+  
+    opacity: 1;
+    cursor: pointer;
+    
+ }
+
+ .down-part
+ .right 
+ .search input{
+     width: 90%;
+     border: none;
+     background: transparent;
+     font-family: 'Roboto Thin', sans-serif;
+     text-transform: capitalize;
+     font-size: 1.2vw;
+
+    
+ }
+
+
+ .table-year{
+     width: 100%;
+     border-collapse: collapse;
+ }
+
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

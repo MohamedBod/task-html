@@ -1,0 +1,1170 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+ 
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+
+ body {
+     width: 100vw;
+     height: 100vh;
+     overflow-y: scroll;
+     overflow-x: hidden;
+ }
+
+
+ /* ============================== start header ============================ */
+
+ .up-part{
+     width: 100vw;
+     height: 4vw;
+     background-color: #d8d8d8;
+ }
+
+ .up-part ul{
+
+    list-style-type: none;
+    
+ }
+
+ .up-part li{
+     display: inline-block;
+    
+     margin-left: 2vw;
+     margin-top: 1.35vw;
+
+ }
+
+ .up-part a {
+     
+    text-decoration: none;
+    font-family: 'Roboto Thin', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2vw;
+    color: black;
+    background-color: #f7f7f7;
+    border: 1px solid #979797;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+ }
+
+ .up-part a:hover{
+
+    background-color: #9b9b9b;
+    
+ }
+
+ .down-part{
+
+    width: 100vw;
+    height: 4vw;
+    background-color: #f2f2f2;
+    border-top:0.5px solid #979797;
+    border-bottom:0.5px solid #979797;
+
+ }
+ .down-part
+ .left{
+     width: 40%;
+     float:left;
+     align-content: center;
+ }
+
+ .down-part
+ .left p{
+    font-family: 'Roboto Thin', sans-serif;
+     font-size: 1.2vw;
+     margin-left: 0.7vw;
+     margin-top: 1.25vw
+ }
+
+ .down-part
+ .right{
+     width: 40%;
+     float: left;
+     margin-left: 10%;
+   
+    
+ }
+
+ .down-part
+ .right
+ .search{
+    display: inline-block;
+    width: 80%;
+    background-color: #e4e4e4;
+    border: 1px solid #bdbdbd ;
+    border-radius: 5px;
+    padding: 0.5vw;
+    margin-top: 0.7vw;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+    
+ }
+
+ .down-part
+ .right
+ .search:hover{
+  
+    opacity: 1;
+    cursor: pointer;
+    
+ }
+
+ .down-part
+ .right 
+ .search input{
+     width: 90%;
+     border: none;
+     background: transparent;
+     font-family: 'Roboto Thin', sans-serif;
+     text-transform: capitalize;
+     font-size: 1.2vw;
+
+    
+ }
+
+
+/* =========================================================== */
+
+
+.left-arrow{
+    margin-left: 4vw;
+    margin-top: 50%;
+}
+
+.right-arrow{
+    margin-right: 4vw;
+    margin-top: 50%;
+}
+
+
+/* ==================start cont ================== */
+
+#cont{
+    width: 100vw ;
+    height:20.5vw;
+}
+
+#cont
+.left{
+    width: 43%;
+    float:left;
+    margin-left: 2%;
+}
+
+#cont
+.left p{
+    font-size: 2vw;
+    font-family: 'Roboto Thin', sans-serif;
+    text-transform: capitalize;
+    margin-top: 4%
+}
+
+#cont
+.left img{
+    width: 7vw;
+    height: 7vw;
+    margin-top: 2%
+}
+
+#cont
+.left span{
+    font-size: 2vw;
+    font-family: 'Roboto Thin', sans-serif;
+ 
+   
+}
+
+#cont
+.right{
+    width: 55%;
+    float:left;
+    
+}
+
+#cont
+.right p{
+    font-size: 2vw;
+    font-family: 'Roboto Thin', sans-serif;
+    text-transform: capitalize;
+    margin-top: 4%
+}
+
+#cont
+.right ul{
+    
+    list-style-type: none;
+    margin-top: 5%;
+  
+}
+#cont
+.right li{
+    float: left;
+    margin-right: 1vw
+    
+}
+
+#cont
+.right li p{
+    text-decoration: none;
+    font-family: 'Roboto Thin', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2vw;
+    color: black;
+    background-color: #f7f7f7;
+    border: 1px solid #979797;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+#cont
+.right li p:hover{
+    background-color: #9b9b9b;
+    cursor: pointer;
+}
+#cont
+.right
+.first{
+    padding: 1.2vw 0.8vw 1.2vw 0.8vw
+}
+#cont
+.right
+.third{
+    padding: 1.2vw 1.5vw 1.2vw 1.5vw
+}
+
+/* ========================================= */
+
+
+/* ===============start info========== */
+
+#info{
+    width: 100vw;
+    display: block;
+ 
+    
+
+}
+
+#info
+.up{
+    width: 100vw;
+    height: 6vw;
+    border-bottom: 1px solid black;
+    padding: 0 3% 0 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    
+
+}
+#info
+.up
+.graph-1 div{
+   
+    width: 1.5vw;
+    height: 5vw;
+    background-color: #c4c4c4;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    
+
+}
+
+#info
+.up
+.graph-1 div:hover{
+   
+    cursor: pointer;
+    background-color: black;
+    
+
+}
+
+
+#info
+.up
+.graph-2 div{
+    width: 1.5vw;
+    height: 5vw;
+    background-color: #c4c4c4;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info
+.up
+.graph-2 div:hover{
+   
+    cursor: pointer;
+    background-color: black;
+    
+
+}
+
+#info
+.up
+.graph-3 div{
+    width: 1.5vw;
+    height: 5vw;
+    background-color: #c4c4c4;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info
+.up
+.graph-3 div:hover{
+   
+    cursor: pointer;
+    background-color: black;
+    
+
+}
+
+
+
+#info
+.up
+.graph-4 div{
+    width: 1.5vw;
+    height: 3vw;
+    background-color: #c4c4c4;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info
+.up
+.graph-4 div:hover{
+   
+    cursor: pointer;
+    background-color: black;
+    
+
+}
+
+
+
+
+#info
+.up
+.graph-5 div{
+    width: 1.5vw;
+    height: 2vw;
+    background-color: #c4c4c4;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info
+.up
+.graph-5 div:hover{
+   
+    cursor: pointer;
+    background-color: black;
+    
+
+}
+
+
+
+#info
+.up
+.graph-6 div{
+    width: 1.5vw;
+    height: 4vw;
+    background-color: #c4c4c4;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info
+.up
+.graph-6 div:hover{
+   
+    cursor: pointer;
+    background-color: black;
+    
+
+}
+
+
+
+#info
+.up
+.graph-7 div{
+    width: 1.5vw;
+    height: 5vw;
+    background-color: #c4c4c4;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info
+.up
+.graph-7 div:hover{
+   
+    cursor: pointer;
+    background-color: black;
+    
+
+}
+
+
+
+#info
+.up
+.graph-8 div{
+    width: 1.5vw;
+    height: 5vw;
+    background-color: #c4c4c4;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info
+.up
+.graph-8 div:hover{
+   
+    cursor: pointer;
+    background-color: black;
+    
+
+}
+
+
+/* ============start info 1 ================== */
+
+
+#info-1{
+    width: 100vw;
+    display: none;
+    
+
+}
+
+#info-1
+.up{
+    width: 100vw;
+    height: 10vw;
+    padding: 0 3% 0 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+
+}
+
+#info-1
+.up
+.graph-1 div{
+    width: 4vw;
+    height: 5vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-1 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-2 div{
+    width: 4vw;
+    height: 3vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-2 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-3 div{
+    width: 4vw;
+    height: 2.5vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-3 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-4 div{
+    width: 4vw;
+    height: 3vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-4 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-5 div{
+    width: 4vw;
+    height: 2.8vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-5 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-6 div{
+    width: 4vw;
+    height: 3vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-6 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-7 div{
+    width: 4vw;
+    height: 3.9vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-7 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-8 div{
+    width: 4vw;
+    height: 2.5vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-8 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-9 div{
+    width: 4vw;
+    height: 1vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-9 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-10 div{
+    width: 4vw;
+    height: 0.8vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-10 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-11 div{
+    width: 4vw;
+    height: 1vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-11 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-12 div{
+    width: 4vw;
+    height: 1.5vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-12 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-13 div{
+    width: 4vw;
+    height: 1.3vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-13 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-14 div{
+    width: 4vw;
+    height: 1vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-14 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-15 div{
+    width: 4vw;
+    height: 0.8vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-15 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-16 div{
+    width: 4vw;
+    height: 0.5vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-16 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-17 div{
+    width: 4vw;
+    height: 0.8vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-17 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-18 div{
+    width: 4vw;
+    height: 0vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-18 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+
+#info-1
+.up
+.graph-19 div{
+    width: 4vw;
+    height: 0vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-19 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-20 div{
+    width: 4vw;
+    height: 0vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-20 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-21 div{
+    width: 4vw;
+    height: 0.3vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-21 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-22 div{
+    width: 4vw;
+    height: 0.8vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-22 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-23 div{
+    width: 4vw;
+    height: 1vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-23 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+#info-1
+.up
+.graph-24 div{
+    width: 3vw;
+    height: 1.5vw;
+    background-color: #e7f1fd;
+    border-top:3px solid  #237bee;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+}
+#info-1
+.up
+.graph-24 div:hover{
+   
+    cursor: pointer;
+    background-color: #237bee;
+    
+
+}
+
+/*  =========================== */
+
+
+
+/* ===============start info 2 ================== */
+
+
+#info-2{
+    width: 100vw;
+    display: none;
+ 
+    
+    
+
+}
+
+#info-2
+.up{
+    width: 100vw;
+    height: 10vw;
+    padding: 0 3% 0 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 5%;
+    
+
+}
+#info-2
+.up{
+    font-family: 'Roboto Thin', sans-serif;
+    font-size: 2vw;
+
+}
+
+#info-2
+.up
+.arrow {
+    margin-top: 40%;
+    font-size: 5vw;
+    font-weight: bold;
+    color: #afbfce;
+    -webkit-transition: color 2s ease-out;
+    -moz-transition: color 2s ease-out;
+    -o-transition: color 2s ease-out;
+    transition: color 2s ease-out;
+}
+
+#info-2
+.up
+.arrow:hover {
+   cursor: pointer;
+    color: black;
+}
+
+
+
+
+
+
+/* ================ start info-photo=============== */
+
+
+
+#info-photo{
+    width: 100vw;
+    
+
+}
+
+#info-photo
+.up{
+    width: 100vw;
+    height: 16vw;
+    padding: 0 3% 0 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Roboto Thin', sans-serif;
+    font-size: 2vw;
+    color: #bababa;
+    text-align: center;
+    margin-bottom: 5%;
+    
+
+}
+
+
+
+#info-photo
+.up
+.arrow{
+
+    text-align: center;
+    margin-top: 20%;
+    border: 1px solid transparent;
+    -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+}
+
+#info-photo
+.up
+.arrow:hover{
+
+   cursor: pointer;
+    border: 1px solid #9b9b9b;
+}
+
+#info-photo
+.up img {
+    max-width: 50px;
+    max-height: 50 px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#info-photo
+.up 
+.arrow 
+.right{
+  
+    color: black;
+}
+
+
+
+/* ============== start footer=================== */
+
+footer{
+    width: 100%;
+    height: 4vw;
+    background-color: #bdbdbd;
+    text-align: center;
+    line-height: 4vw;
+
+}
+
+
+
+
+
+

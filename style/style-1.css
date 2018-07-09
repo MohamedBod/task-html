@@ -1,0 +1,282 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+ 
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+
+ body {
+     width: 100vw;
+     height: 100vh;
+     overflow-y: scroll;
+     overflow-x: hidden;
+ }
+
+
+ /* ======================================================================================= */
+
+
+ .up-part{
+    width: 100vw;
+    height: 4vw;
+    background-color: #d8d8d8;
+}
+
+.up-part ul{
+
+   list-style-type: none;
+   
+}
+
+.up-part li{
+    display: inline-block;
+   
+    margin-left: 2vw;
+    margin-top: 1.35vw;
+
+}
+
+.up-part a {
+    
+   text-decoration: none;
+   font-family: 'Roboto Thin', sans-serif;
+   text-transform: capitalize;
+   font-size: 1.2vw;
+   color: black;
+   background-color: #f7f7f7;
+   border: 1px solid #979797;
+   padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+   -webkit-transition: background-color 2s ease-out;
+   -moz-transition: background-color 2s ease-out;
+   -o-transition: background-color 2s ease-out;
+   transition: background-color 2s ease-out;
+}
+
+.up-part a:hover{
+
+   background-color: #9b9b9b;
+   
+}
+
+
+
+
+ .navbar-brand span{
+    font-family: 'Roboto Thin', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2vw;
+ }
+ .form-inline{
+     width: 30vw;
+    background-color: #e4e4e4;
+    border: 1px solid #bdbdbd ;
+    border-radius: 5px;
+    padding: 0.5vw;
+    margin-right: 8%;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+ }
+
+ .form-inline:hover{
+    
+    opacity: 1;
+ }
+ .form-inline input{
+    width: 90%;
+    border: none;
+    background: transparent;
+    font-family: 'Roboto Thin', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.2vw;
+ }
+
+ .form-inline label{
+  margin-right: 1%;
+ }
+
+
+
+ /* ================================================================= */
+
+
+ .table-bordered td, 
+ .table-bordered th {
+    border: 1px solid #020202 !important;
+    font-family: 'Roboto Thin', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: normal !important;
+
+    
+}
+
+.days{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.days img{
+  max-width: 40px;
+  max-height: 30px;
+}
+
+.green{
+    background-color: #b8ea86;
+    margin-top: 2vw;
+    border: 1px solid #bdbdbd
+
+}
+
+.yellow{
+    background-color: #f8e71c;
+    margin-top: 2vw;
+    border: 1px solid #bdbdbd
+
+
+}
+
+.rose{
+    background-color: #f5a623;
+    margin-top: 2vw;
+    border: 1px solid #bdbdbd
+
+}
+
+.num{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.num p{
+    background-color: #d8d8d8;
+    padding: 0 3px 0 3px;
+ 
+}
+
+.have-back{
+    background-color: #bdbdbd
+}
+
+
+.days-info{
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+#note{
+
+    width: 100%;
+    height: 4vw;
+    background-color: #bdbdbd;
+    border: 1px solid black ;
+    margin-bottom: 2%;
+    font-family: 'Roboto Thin', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+    
+    
+
+}
+
+
+
+
+/* ==================================== */
+
+.fa-chevron-right{
+    color: #020202;
+    font-size: 5vw;
+}
+
+.fa-chevron-left{
+    color: #020202;
+    font-size: 5vw;
+}
+
+.carousel-control-next {
+    right: -9%;
+}
+
+.carousel-control-prev {
+    left: -9%;
+}
+
+
+
+
+#note
+.right{
+    display: inline;
+    text-align: left ;
+    line-height: 4vw;
+    
+
+}
+
+#note
+.center{
+    text-align: center;
+    line-height: 4vw;
+}
+
+
+#more-info{
+    width: 100vw;
+    height: 15vw
+}
+.sun{
+    width: 50%;
+    height: 10vw
+}
+.media-body h5{
+    margin-bottom: 5% !important ;
+}
+
+.media-body p{
+    font-family: 'Roboto Thin', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+}
+.moon{
+    width: 50%;
+    height: 10vw
+}
+.text-infoo{
+    margin-top: 2%;
+    font-family: 'Roboto Thin', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 4vw;
+    background-color: #bdbdbd;
+    text-align: center;
+    line-height: 4vw;
+
+}
+footer p{
+       margin-bottom: 0;
+
+}
+
